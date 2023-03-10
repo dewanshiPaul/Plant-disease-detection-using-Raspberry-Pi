@@ -27,9 +27,10 @@ def email_alert_temp_humid(subject, body, to):
     message.set_content(body)
     message['subject'] = subject
     message['to'] = to
-
-    user = 'dewanshipaul84@gmail.com'
-    password = 'gmztqaleblfyuuhj'
+    #enter your user name
+    user = ''
+    #enter your app password
+    password = ''
 
     message['from'] = user
 
